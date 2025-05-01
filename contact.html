@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <nav class="navigation"> 
@@ -12,8 +14,53 @@
         <a href="about.html">About</a> 
         <a href="services.html">Services</a>
         <a href="testimonials.html">testimonials</a>
+        <a href="cart.html">cart</a>
         <a href="contact.html">Contact</a>
 
     </nav> 
+
+    <div class="container">
+        <h2>contact us</h2>
+        <form id="contactform">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: example@example.com</p>
+            <p>Phone: +1 (555) 372-9846</p>
+            <p>Address: 123 Main Street, Nairobi, Kenya</p>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+    <footer>
+        <div>
+            <h4>Help line-+1 (555) 372-9846</h4>
+        </div>
+        <div class="footercontainer">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+              </div>
+        </div>
+        <div>
+            <h4>&copy;copyright.All Rights Reserved</h4>
+        </div>
+    </footer>
 </body>
 </html>

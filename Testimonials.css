@@ -13,52 +13,14 @@
 
 }
 
-.contaier {
-    width: 60%;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid wheat;
-    border-radius: 5px;
-}
-.form {
-    margin-bottom: 17px;
-}
-.label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-.input[type="text"],
-.input[type="email"], .input[type="tel"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.button:hover {
-    background-color: #45a049;
-}
-.contact-info {
-    font-style: oblique;
-}
 body {
     background-image:url(./image/photo\ 56.jpg) ;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     padding-top: 60px;
-    background-image: cover;
 
 }
 footer{
